@@ -1,0 +1,21 @@
+Experiment No. 1: Encapsulation
+Aim: Write a program to demonstrate classes and objects
+
+Problem Statements:
+1. Write a program which contains a class for simulating a simple calculator. The Calculator class must contain five operations (+,-,*,/). Create a menu driven main to test all the operations, the program will stop when user chooses exit.
+
+2. Write a program which contains a class called Rectangle with data members length and breadth. Define methods perimeter and area. Create a Tester class which creates objects of Rectangle classs in the main() method and calls the methods of rectangle class.
+
+3. Define a class to represent a bank account. Include the following members:
+    Data members
+    a. Name of the depositor
+    b. Account number
+    c. Type of account
+    d. Balance amount in the account
+    Member functions
+    a. To assign initial value
+    b. To deposit an amount
+    c. To withdraw an amount after checking the balance
+    d. To display name and balance
+    Write a menu-driven main program to test the program, read the data from the user. 
+
