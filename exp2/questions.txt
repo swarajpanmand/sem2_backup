@@ -1,0 +1,33 @@
+Experiment No. 2: Constructor
+Aim: Write a program to demonstrate constructor
+
+Problem Statements:
+    1. Create a class doctor with name,degree,spdegree and acheivement. The class
+    contains a display function to display the values. A parameterized constructor should
+    be included in your program. Use user given input for the same.
+
+    2. Time class : Hours, Minutes and Seconds
+        Write a program that asks the user to enter seconds as integer. The program
+        should compute and display the number of hours, number of minutes and number
+        of seconds in that seconds.
+        For example if user enters 4205 seconds as a input called totSeconds. The answer
+        should be
+        Hours : 1
+        Minutes : 10
+        Seconds : 5
+        These calculations can be done in a method name: conversion1() which will also
+        display the result as Hour,minutes and seconds.
+        Similarly- if user input is Hour, Minute and Second then write another method
+        conversion2() which will have these three parameters and the conversion2 method
+        will compute and display the totSeconds.
+        Note - Use any class (ie scanner /BufferedReader class) for input through console
+        as hour/min/seconds/totSeconds
+        
+    3. Create a class Hospital, assume appropriete data members. Create a default constructor and
+    provide appropriete get and set methods for the data members.
+
+    4. Create a class Vehicle. Assume appropriete data members. Demonstrate default constructor and
+    parameterised constructor for the data members.
+
+    5. Create a class Event. Assume appropriete data members. Demonstrate menu driven program to
+    invoke default constructor, parameterised constructor and copy constructor for the data members.
