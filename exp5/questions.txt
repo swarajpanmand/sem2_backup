@@ -1,0 +1,34 @@
+Experiment No. 5: Inheritance
+
+Aim: Implement a Program to demonstrate single, multilevel Inheritance
+    1. Consider a class called Shape with member color of the shape. Consider a class called Rectangle, derived from the Shape class, which adds features length and breadth, add a method to print the rectangle’s details and find the area of the rectangle. Use appropriate access modifiers. Create a TestRectangle class to create objects of the rectangle class and test the methods.
+
+    2.  Define parent class "Employee" that has 3 private attributes
+        String name, String id, int age.
+        Employee has constructor with 3 arguments that set value of name, id, age. It also has 	getter and setter methods for all 3 private attributes.
+        Class "SalariedEmployee" is a sub class of Employee and has 1 private attribute 	empSalary.
+
+        "SalariedEmployee" can be permanent or on contract and has constructor 			SalariedEmployee(String name, String id, int age, double empSalary) to set the values.
+        constructor SalariedEmployee must call the superclass constructor to set name, id, age 	and call setter method to set the salary.
+        Employee salary is empSalary + 2000(allowance) if he is a permanent employee else 	Employee salary is empSalary (no allowance).
+        Accept the details of 5 salaried employees and print details of the employee with 
+        highest salary. Hint: Use array of objects
+
+        Create class Tester with main method
+
+    3. Consider a class Product with data members barcode and name of the product. Create the appropriate constructor and write getter methods for the individual data members. 
+        Derive 2 classes from Product, 1st class is PrepackedFood and 2nd class is FreshFood. the PrepackedFood class should contain the unit price and the FreshFood class should contain a weight  and a price per kilo as data members. Create methods to read the details and print the details of a FreshFood and PrepackedFood product in the main class. 
+
+    4. Define class Production that has attributes String title, String director, String writer. Production class has 3 argument constructor that sets the values. It also has getter and setter methods and Overridden toString() of object class  to display details of class.
+
+        class Play is a sub class of Production with getter and setter methods and has an attribute int performances that is incremented every time a play happens.
+        Add Overridden toString() of object class  to display details of the class.
+
+        class Musical is a Play with songs. Musical object has all attributes of Play as well as String composer and String lyricist along with getter and setter methods. Override toString display all attributes of Musical object
+
+        In main create 3 objects of Play and 2 objects of Musical. Every time an object of Play or Musical is created, performances get incremented. Also add the number of seats booked for each play or musical.
+        Find the total box office collection, provided cost of 1 seat for Play is Rs 500(can be variable) and cost of 1 seat for Musical is Rs 800(can be variable)
+
+        Display total No. of performances as 5 and display the box office collection.
+
+        Create class Tester with main method
