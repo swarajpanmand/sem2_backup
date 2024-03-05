@@ -66,6 +66,11 @@ class Play extends Production {
         collection = 500 * seats1;
     }
 
+    //method to return collection 
+    int collectionPlay() {
+        return collection;
+    }
+
     // Method to increment performances for Play
     public void incrementPerformances() {
         performances++;
@@ -183,7 +188,8 @@ class Test3 {
         }
 
         // Calculate total collection and display total performances
-        int totalCollection = mus[0].collectionMusical2() + mus[1].collectionMusical2() + play[0].collectionMusical2();
+        int totalCollection = mus[0].collectionMusical2() + mus[1].collectionMusical2() + play[0].collectionPlay()
+                + play[1].collectionPlay() + play[2].collectionPlay();
         System.out.println("Total no. of performances: " + play[2].performancesReturn());
         System.out.println("Box office collection: " + totalCollection);
     }
