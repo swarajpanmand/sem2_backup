@@ -1,0 +1,72 @@
+1.Create a Date class with data int year, int month, int date,  int hrs, int min, int sec. Create a default, no-argument constructor which sets the default date to January 1, 2000, 00:00:00 Create 3 overloaded setter methods 
+    void setDate(int year, int month, int date)
+    void setDate(int year, int month, int date, int hrs, int min)
+    void setDate(int year, int month, int date, int hrs, int min, int sec)
+    Also write a displayDate() method which will display the date depending on the type of date object created.
+
+
+
+
+
+2.Given a class Line with slope, y-intercept, x1, y1, x2, y2 as  attributes, write 3 constructors for equations for the line given Slope-y-intercept, Slope Point and two Point forms
+    Slope-y-intercept:
+    y = mx + c
+    Slope point form:
+    y - y1 = m(x - x1)
+    Two Point form:
+    (y - y1) / (y1 - y2) = m(x - x1) / (x1 - x2)
+    Also, m = (y2 - y1) / (x2 - x1)
+    Each constructor should display the appropriate Line equation.
+
+
+
+
+
+
+
+3.Create a Test class with a data double base, int power, int logBase, int argument. 
+    Create a default, no-argument constructor which sets the default value of all variables to 2.
+    There are 2 overloaded functions:
+    1. double calculate (double base, int power)
+    This function returns the value when *base* is raised to *power*
+    For example: calculate (3.0, 2) returns the value of 3.0 raised to 2 i.e., 9.0
+    2. double calculate (int logBase, int argument)
+    This function returns the value of the log of *argument* to the base *logBase*.
+    For example: calculate (3, 9) returns log of 9 to the base 3 i.e., 2.0
+    Create a main method in a separate class to call the above functions with the following inputs:
+    1. calculate (2, 4)
+    2. calculate (2.0, 4)
+    Create a display() method which displays the output based on the type of Test object created.
+
+
+
+
+
+4.Write a menu-driven program to recruit an employee (depending on his performance in various rounds) in some software company using constructor overloading.
+    Selection Criteria for each post is given below:
+    i) Programmer (Minimum total of 80 marks):-
+    Rounds:-
+    (1) Course Work
+    (2) Aptitude Test
+    (3) Technical Test
+    (4) Interview
+    ii) Team Leader (Minimum total of 85 marks ):-
+    Rounds:-
+    (1) Technical Test
+    (2) Interview
+    iii) Project Manager (Minimum score 90 marks)
+    Rounds:-
+    (1) Interview
+
+    Create a class Posting and write 3 constructors to initialize the object and set the parameters
+    and display the employee post according to selection criteria.
+    Data members:
+    ● int courseWork;
+    ● int AptTest;
+    ● int TechTest;
+    ● int interview;
+    Constructors:
+    ● Posting (int courseWork, int AptTest, int TechTest,int interview)
+    ● Posting (int TechTest,int interview)
+    ● Posting (int interview)
+    Make use of ‘this’ keyword.
