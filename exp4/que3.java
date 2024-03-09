@@ -2,11 +2,11 @@ package exp4;
 
 import java.util.*;
 
-public class CodeWar {
+public class que3 {
     String message;
     int key;
 
-    public CodeWar(String message, int key) {
+    public que3(String message, int key) {
         this.message = message;
         this.key = key;
     }
