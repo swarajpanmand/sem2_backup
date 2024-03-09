@@ -1,0 +1,56 @@
+1.Exercise GradesStatistics : Write a program called GradesStatistics, which reads in n grades (of int between 0 and 10, inclusive) and displays the average, minimum, maximum, median and standard deviation. Display the floating-point values upto 2 decimal places.  Your output shall look like:
+    Enter the number of students : 4
+    Enter the grade for students 1 : 50
+    Enter the grade for students 1 : 51
+    Enter the grade for students 1 : 56
+    Enter the grade for students 1 : 53
+    {50,51,56,53}
+    The average is 52.50
+    The Minimum is 50
+    The Maximum is 56
+    The Median is : 52.00
+    Note: 1) The std. deviation is 2.29(formula can be referred from net)
+
+2.Book Ratings : Write a program to find the most popular book. Create a 2D array named bookRating which should hold ratings( 1 to 5) of a few books. Collect ratings of n such books. a)Find the average rating of each book. b) Display the most popular book. i.e. a Book with highest average rating.
+
+3.Exercise GradesStatistics : Write a program called GradesStatistics, which reads in n grades (of int between 0 and 10, inclusive) and displays the average, minimum, maximum, median and standard deviation. Display the floating-point values upto 2 decimal places.  Your output shall look like:
+    Enter the number of students : 4
+    Enter the grade for students 1 : 50
+    Enter the grade for students 1 : 51
+    Enter the grade for students 1 : 56
+    Enter the grade for students 1 : 53
+    {50,51,56,53}
+    The average is 52.50
+    The Minimum is 50
+    The Maximum is 56
+    The Median is : 52.00
+    Note: 1) The std. deviation is 2.29(formula can be referred from net)
+    Book Ratings : Write a program to find the most popular book.
+    Create a 2D array named bookRating which should hold ratings( 1 to 5) of a few books. Collect ratings of n such books. a)Find the average rating of each book. b) Display the most popular book. i.e. a Book with highest average rating.
+
+    Your country is at war and your enemies are using a secret code to communicate with each other. You have managed to intercept a message that reads as follows:
+    :mmZ\dxZmx]Zpgy
+    The message is obviously encrypted using the enemy’s secret code. You have just learned that their encryption method is based upon the ASCII code.
+    For example, the letter “A” is encoded using the number 65 and “B” is encoded using the number 66.
+    Your enemy’s secret code takes each letter of the message and encrypts it
+    as follows:
+    If (OriginalChar + Key > 126) then
+    EncryptedChar = 32 + ((OriginalChar + Key) – 127)
+    Else
+    EncryptedChar = (OriginalChar + Key)
+    For example, if the enemy uses Key = 10 then the message “Hey” would be
+    encrypted as:
+    Character ASCII code
+    ______________________
+    H 72
+    e 101
+    y 121
+    Encrypted H = (72 + 10) = 82 = R in ASCII
+    Encrypted e = (101 + 10) = 111 = o in ASCII
+    Encrypted y = 32 + ((121 + 10) – 127) = 36 = $ in ASCII
+    Consequently, “Hey” would be transmitted as “Ro$.”
+    Write a program that decrypts the intercepted message. You only know that the key used is a number between 1 and 100. Your program should try to decode the message using all possible keys between 1 and 100.
+    When you try the valid key, the message will make sense. For all other keys, the message will appear as gibberish.
+    Write a program in Java to maintain the information of Movies which includes the information of name of movie , type of movie( action , thriller , comedy ,drama ) , Hero name , Heroine , budget in Rs. . Write a program to accept the information of movies from user and sort them according to the budget of the film. 
+
+4.
