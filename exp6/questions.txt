@@ -1,0 +1,80 @@
+Experiment No. 6: Polymorphism
+
+Aim: Implement a Program to demonstrate method overriding
+
+1.Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks are given below. 
+    Period
+    SBI  Interest Rate (Rates in % per annum)
+    <Rs. 2 Cr
+    7–14 Days
+    3.00
+    15 –30 Days
+    3.00
+    31-45 Days
+    3.00
+    46 -90 Days
+    4.05
+    91–120 Days
+    4.10
+    121-180 Days
+    4.10
+
+    
+    
+    Period
+    ICICI  Interest Rate (Rates in % per annum)
+    <Rs. 2 Cr
+    7–14 Days
+    3.10
+    15 –30 Days
+    3.20
+    31-45 Days
+    3.50
+    46 -90 Days
+    4.50
+    91–120 Days
+    4.70
+    121-180 Days
+    4.90
+
+    
+    Period
+    AXIS Interest Rate (Rates in % per annum)
+    <Rs. 2 Cr
+    7–14 Days
+    3.15
+    15 –30 Days
+    3.15
+    31-45 Days
+    3.45
+    46 -90 Days
+    4.05
+    91–120 Days
+    4.70
+    121-180 Days
+    5.00
+
+    Aayush has deposited Rs. 10000 in SBI Bank,  Rs. 12500 in ICICI Bank, and Rs. 20000 in AXIS bank respectively for a particular month. 
+    You need to print the money he will get by applying the rate of interest as per the bank and days.
+    Create a class 'Bank' with a method 'get_rate_of_interest' which returns 2%.
+    Make three subclasses named  SBI_Bank, ‘ICICI_Bank’ and 'AXIS_bank' with a method with the same name 'get_rate_of_interest' which returns the rate of interest.
+    Also, give the final amount Ayush will get from that particular bank by applying the rate of interest and period. Use Calendar Class to count the number of days and amount he will get after maturity with the date of Maturity, if he deposits today.
+    Note: 
+    1.  Use compound interest
+    2. Get time period from the user 
+    3. Solve using method overriding
+
+3.Write a program to display the salary of an employee working in an organization. Consider the following hierarchy and use the given formulae to calculate the DA and HRA based on the basic salary.
+    
+3.Consider a class called Car with data car_no and producer (both private). Write appropriate
+    constructors and setter/getter methods. Add a method called display(). Derive two classes
+    PassCar and Truck from Car. PassCar has private data passCarType and sunRoof(boolean).
+    Add appropriate constructors and setter/getter methods. Override method display(). Class
+    Truck has data members numberAxles, loadCapacity(private). Add constructors and
+    setter/getter methods. Override method display().
+    Assume a car rental company which has two types of cars. Write a main class in which you
+    would create an array of Cars (Parent type). Ask the user which type of car he wants and
+    appropriately assign each car reference to the appropriate object (truck/passcar). Call the
+    display method once the object is assigned clearly demonstrating runtime polymorphism.
+
+
