@@ -1,0 +1,14 @@
+﻿Experiment No. 7: Abstraction
+
+
+Aim: Implement a Program to demonstrate abstraction using  abstract classes
+
+
+1. Create a Shape class which is abstract with data color and abstract method area() and derive two classes Rectangle and Circle derived from shape, override area() method and complete the classes. 
+    Create a class called Diagram which contains and array of shape class. Each Diagram can be a composition of rectangle or circle shapes. Diagram class has method called totalArea() which computes the totalArea() of both shapes.
+    Add setters, getters and constructors wherever required.
+    Design a Tester class with main() to create different diagram objects and print the total areas and details of each diagram.
+
+
+2. Define a Westside class that has sales in clothes and accessories. Let us say 10 clothes and 10 accessories each cost 5000. Clothes and accessories are limited and updated as soon as purchase is done. Define a class named Payment (abstract class) that contains an instance variable of type double that stores the amount of the payment. Amount is initialized 25,000 and updated with each purchase. Also create a method named (abstract) paymentDetails that updates the amount of the payment. Next, define a class named CashPayment that is derived from Payment. This class should redefine the paymentDetails method to indicate that the payment is in cash. Include appropriate constructor(s)/methods. Define a class named CreditCardPayment that is derived from Payment. This class should contain instance variables for the name on the card, expiration date, and credit card number. Include appropriate constructor(s)/methods. Finally, redefine the paymentDetails method to include all credit card information in the printout. Define a class Person that contains person_name and P_phone_no. Create a main method that creates at least five persons who will be given random chances for buying using any payment method CashPayment /CreditCardPayment. Once a person buys clothes/ accessories, the amount gets debited.
+    Note that both CashPayment and CreditCardPayment will be derived from the Payment class.
