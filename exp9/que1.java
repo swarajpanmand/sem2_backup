@@ -83,12 +83,15 @@ class SavingAccount extends Account {
     public void transfer(double amount, Account acc) {
         if (amount < 0) {
             System.out.println("Error: Amount cannot be negative.");
+            return;
         }
         if (balance - amount < minBalance) {
             System.out.println("Error: Insufficient balance.");
+            return;
         }
         if (minBalance != 0 && balance - amount < minBalance) {
             System.out.println("Error: Minimum balance not maintained.");
+            return;
         }
         balance = balance - amount;
         acc.balance = acc.balance + amount;
@@ -141,12 +144,10 @@ class que1 {
                     double transferAmount = sc.nextDouble();
                     System.out.print("Enter target account number: ");
                     int targetAccNo = sc.nextInt();
-                    // For simplicity, assuming we're transferring to the same account here
-                    SavingAccount targetAccount = sa;
+                    SavingAccount targetAccount = new SavingAccount(name, balance, acc_no, interestRate, minBalance);
                     sa.transfer(transferAmount, targetAccount);
                     break;
                 case 6:
-                    System.out.println("Exiting...");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
