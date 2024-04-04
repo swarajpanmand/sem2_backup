@@ -1,0 +1,31 @@
+8. Program on Abstraction: Implement a Program to demonstrate multiple
+Inheritance using Interfaces
+
+
+
+A. Consider two interfaces, Volume and SurfaceArea with methods getVolume() and
+    getSurfaceArea() respectively. Class ‘Cylinder’ implements both Volume and
+    SurfaceArea and implements their methods. The class contains their required dimensions
+    as data members. Write a program which inputs its dimensions and prints its volume and
+    surface area. Create classes ‘Cone’and ‘Sphere’ that implements both the interfaces. In
+    main class, ask user which shape volume and area needs to be calculated. Use switch
+    case.
+B. A banking system has two interfaces SavingAccount and CurrentAccount. The
+    SavingAccount account has method getSimpleInterest() and CurrentAccont has method
+    getCompoudInterest(). Both these interfaces are implemented by class Customer.
+    Customer have data members: account type, interest rate and balance. The class then
+    calculates interest on balance and prints it.
+C. A fast food centre has two interfaces EatItHere and TakeAway. They have methods like
+    deliverOrder() and dispatchOrder(). the class Consumer inherits both of them. If
+    Consumer orders a takeaway he will be charged a convenience fee of Rs. 45/- or 5% of
+    order price whichever is more. If he chooses to eat in a restaurant then he will be charged
+    Rs. 500/- service charge or 10% of order price whichever is lower. The class consumer
+    has data members as order number and order price.
+D. Write a Java program to create an interface Sortable with a method sort()
+    that sorts an array of integers in ascending order. Create two classes
+    BubbleSort and SelectionSort that implement the Sortable interface and
+    provide their own implementations of the sort() method.
+E. Write a class that implements the CharSequence interface. Your
+    implementation should return the string backwards. Select one of the
+    sentences to use as the data. Write a small main method to test your
+    class.
