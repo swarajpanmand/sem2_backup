@@ -1,0 +1,68 @@
+1.There is an abstract class Account
+
+    Attribute:-
+
+    ● Name
+
+    ● Balance
+
+    ● Acc_No
+
+    Method:-
+
+    ● Deposit - abstract method
+
+    ● withdraw - abstract method
+
+    ● display - abstract method
+
+
+    Saving Account inherits the Account class and provides the implementation for the methods accordingly
+
+    Saving Account class Attribute:-
+
+    ● interestRate
+
+    ● minBalance
+
+    Method
+
+    ● addInterest: handle Arithmetic Exception
+
+    ● transfer():
+
+    Note:
+
+    ● Balance cannot be less than 0.
+
+    ● In a Saving account if minBalance is set then for that the balance cannot go less than that amount. If it goes, an error must be shown.
+
+    ● let the user deposit to or withdraw from the account. For each transaction, a message is displayed to indicate the status of the transaction: successful or failed. In case of failure, the failure reason is reported.
+
+    ● The possible Exceptions are negative-amount-exception (in both deposit and withdraw transaction) and insufficient-amount-exception ( in withdraw transaction).
+
+    For the above scenario write an interactive program in Java. Also, show output for different use cases.
+
+
+
+
+2.Define a class Cricketer which has:-
+
+    Attributes:-
+
+    ● player_name
+
+    ● runs_hit
+
+    ● innings_count
+
+    ● not_out_count
+
+    ● batting_avg
+
+    Methods:-get_avg
+
+    Make a cricket team with 11 cricketers. For each cricketer, find his batting average. Handle all different errors while calculating this. Also, make a method which will find he list of cricketers in ascending order of their batting average and also display the cricketer stats in this order. If the average of the batting average of the entire team is less than 20 runs then throw a user-defined exception.
+
+    Note- handle errors like ArrayIndexOutOfBoundsException, ArithmeticException,ArrayStoreException, NumberFormatException, etc
+
